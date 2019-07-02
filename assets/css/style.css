@@ -21,8 +21,16 @@ body {
     font-style: normal;
     font-family: 'Shadows Into Light', cursive;
     font-size: x-large;
-    border: 4px solid white;
+    border: 4px solid pink;
     background-color: whitesmoke;
     margin: 6px;
     width: 400px;
+}
+
+.score {
+
+}
+
+.buttons {
+
 }

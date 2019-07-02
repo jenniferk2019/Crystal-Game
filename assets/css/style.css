@@ -38,6 +38,16 @@ body {
 .score {
 border: 2px solid pink;
 background-color: whitesmoke;
+height: 5px;
+}
+
+.container {
+    border: 2px solid pink;
+    background-color: whitesmoke;
+    height: 30px;
+    width: 140px;
+    float: left;
+    text-align: center;
 }
 
 .buttons {

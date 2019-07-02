@@ -38,13 +38,14 @@ body {
 .score {
 border: 2px solid pink;
 background-color: whitesmoke;
-height: 5px;
+height: 63px;
+width: 143px;
 }
 
 .container {
     border: 2px solid pink;
     background-color: whitesmoke;
-    height: 30px;
+    height: 43px;
     width: 140px;
     float: left;
     text-align: center;

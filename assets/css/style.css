@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-    background-image: url("../images/crystal.jpg");
+    background-image: url("../images/");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,5 +32,22 @@ body {
 }
 
 .buttons {
+display: inline-flex;
+font-family: 'Shadows Into Light', cursive;
+}
 
+.crystal1 {
+background-size: 10px;
+}
+
+.crystal2{
+background-size: 10px;
+}
+
+.crystal3{
+background-size: 10px;
+}
+
+.crystal4{
+background-size: 10px;
 }

@@ -11,7 +11,7 @@ h1 {
 }
 
 body {
-    background-image: url("../images/");
+    background-image: url("../images/bgcrystal.gif");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,34 +20,49 @@ body {
 .instructions {
     font-style: normal;
     font-family: 'Shadows Into Light', cursive;
-    font-size: x-large;
+    font-size: large;
     border: 4px solid pink;
     background-color: whitesmoke;
     margin: 6px;
     width: 400px;
 }
 
-.score {
+#display {
+    display: block;
+    border: 2px solid pink;
+    background-color: whitesmoke;
+    margin: 4px;
+    width: 200px;
+}
 
+.score {
+border: 2px solid pink;
+background-color: whitesmoke;
 }
 
 .buttons {
 display: inline-flex;
 font-family: 'Shadows Into Light', cursive;
+margin: inherit;
+width: 6px;
 }
 
 .crystal1 {
 background-size: 10px;
+font: caption;
 }
 
 .crystal2{
 background-size: 10px;
+font: caption;
 }
 
 .crystal3{
 background-size: 10px;
+font: caption;
 }
 
 .crystal4{
 background-size: 10px;
+font: caption;
 }

@@ -69,6 +69,7 @@ display: inline-flex;
 font-family: 'Shadows Into Light', cursive;
 margin: inherit;
 width: 6px;
+float: left;
 }
 
 .crystal1 {

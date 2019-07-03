@@ -1,5 +1,8 @@
+var wins
+var losses
 
 
+var crystalNumber=Math.floor(Math.random() * 120 +1);
 var yourScore=0
 
 function crystalMath () {

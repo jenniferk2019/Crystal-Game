@@ -50,7 +50,7 @@ text-align: left;
     width: 140px;
     float: left;
     text-align: left;
-    margin: auto;
+    margin: 20px;
 }
 
 .container2 {
@@ -61,7 +61,7 @@ text-align: left;
     width: 140px;
     text-align: left;
     padding: 15px;
-    margin: auto;
+    margin: 20px;
 }
 
 .buttons {

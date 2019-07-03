@@ -4,7 +4,8 @@ yourScore.innerHTML = 0;
 
 var crystalNumber =
     document.getElementById('crystalNumber');
-targetScore.innerHTML = getRandomValue(10, 4);
+targetScore.innerHTML = getRandomValue(10); 
+// is the ^ getRandomValue properly used?? to generate random numbers by ten??
 
 //*******************************************************/
 
@@ -28,7 +29,7 @@ var starCrystal = document.getElementById("starCrystal");
 //red.setAttribute("value", "15");
 console.log(starCrystal.value);
 
-var cosmisCrystal = document.getElementById("cosmicCrystal");
+var cosmicCrystal = document.getElementById("cosmicCrystal");
 //red.setAttribute("value", "20");
 console.log(cosmicCrystal.value);
 
@@ -59,3 +60,8 @@ cosmicCrystal.addEventListener('click', function () {
     addToScore(this.value);
     checkPlayerScore();
 });
+
+// *********************************************************/
+
+var sum = parseInt(moonCrystal.value) + parseInt(princessCrystal.value) + parseInt(starCrystal.value) + parseInt(cosmicCrystal.value);
+console.log (sum);

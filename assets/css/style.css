@@ -36,14 +36,17 @@ body {
 }
 
 .score {
+display: block;
 border: 2px solid pink;
 background-color: whitesmoke;
 height: 63px;
 width: 143px;
 text-align: left;
+float: left;
 }
 
 .container1 {
+    display: block;
     border: 2px solid pink;
     background-color: whitesmoke;
     height: 43px;
@@ -54,13 +57,13 @@ text-align: left;
 }
 
 .container2 {
-    float: left;
+    display: block;
     border: 2px solid pink;
     background-color: whitesmoke;
     height: 43px;
     width: 140px;
+    float: left;
     text-align: left;
-    padding: 15px;
     margin: 20px;
 }
 
@@ -69,7 +72,7 @@ display: inline-flex;
 font-family: 'Shadows Into Light', cursive;
 margin: inherit;
 width: 6px;
-float: left;
+float: center;
 }
 
 .crystal1 {
